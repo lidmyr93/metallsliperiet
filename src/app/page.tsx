@@ -1,5 +1,6 @@
 import Image from "next/image";
 import Animation from "./components/Animation";
+import StyledLink from "./components/StyledLink";
 
 export default function Home() {
   return (
@@ -12,6 +13,7 @@ export default function Home() {
           width={800}
           height={600}
           objectFit="cover"
+          quality={50}
         />
       </section>
       <section className="absolute bg-black top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-10/12 md:w-6/12 rounded-md p-8 border-[#ffffff54] border">
@@ -23,9 +25,15 @@ export default function Home() {
         <div className="text-center">
           <h1 className="text-2xl mb-16">Hemsida under konstruktion</h1>
           <p className="text-base mb-2">Kontakt</p>
-          <p className="text-sm mb-2">Förrådsgränd 5b, 162 50 Vällingby</p>
-          <p className="text-sm mb-2">08-641 56 11</p>
-          <p className="text-sm mb-2">info@metallsliperiet.se</p>
+
+          <StyledLink href="https://maps.app.goo.gl/rXeGrcJx19Cpr88JA">
+            Förrådsgränd 5b, 162 50 Vällingby
+          </StyledLink>
+
+          <StyledLink href="tel:08-6415611">08-641 56 11</StyledLink>
+          <StyledLink href="mailto:info@metallsliperiet.se">
+            info@metallsliperiet.se
+          </StyledLink>
         </div>
       </section>
     </main>
