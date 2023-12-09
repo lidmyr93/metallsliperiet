@@ -14,7 +14,7 @@ export default function Home() {
           objectFit="cover"
         />
       </section>
-      <section className="absolute bg-black top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-6/12 rounded-md p-8 border-[#ffffff54] border">
+      <section className="absolute bg-black top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-10/12 md:w-6/12 rounded-md p-8 border-[#ffffff54] border">
         <div className="flex justify-center">
           <Animation />
         </div>
