@@ -8,7 +8,7 @@ export default function ContactInformation() {
 
       <p className="text-2xl max-w-[320px]">
         Text om något, vet inte vad. Kanske om..... eh jag vet inte, vi hittar
-        på något.
+        på något kul
       </p>
 
       <span className="flex mt-9">
