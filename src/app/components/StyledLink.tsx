@@ -1,31 +1,22 @@
+import Image from "next/image";
+import { twMerge } from "tailwind-merge";
+
 export default function StyledLink({
   children,
   href,
+  className,
 }: {
   children: React.ReactNode;
   href: string;
+  className?: string;
 }) {
   return (
     <a
       href={href}
-      className="text-sm mb-2 flex justify-center items-center group"
+      className={twMerge("text-slate-200 hover:text-white", className)}
       target="_blank"
     >
-      <p className="mr-2 group-hover:underline">{children}</p>
-      <svg
-        xmlns="http://www.w3.org/2000/svg"
-        fill="none"
-        viewBox="0 0 24 24"
-        strokeWidth={1.5}
-        stroke="currentColor"
-        className="w-4 h-4 group-hover:scale-105"
-      >
-        <path
-          strokeLinecap="round"
-          strokeLinejoin="round"
-          d="M13.5 6H5.25A2.25 2.25 0 003 8.25v10.5A2.25 2.25 0 005.25 21h10.5A2.25 2.25 0 0018 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25"
-        />
-      </svg>
+      {children}
     </a>
   );
 }
