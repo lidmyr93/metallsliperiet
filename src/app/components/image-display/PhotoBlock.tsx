@@ -11,7 +11,7 @@ const PhotoBlock = ({ image, height }: Props) => {
       <div>
         <div className={`group relative cursor-pointer`}>
           <Image
-            className="transition ease-in-out delay-150 duration-700 group-hover:opacity-75 group-hover:-translate-y-1 w-full"
+            className="transition ease-in-out delay-150 duration-700 grayscale group-hover:grayscale-0 w-full"
             src={image}
             width={400}
             height={height}

@@ -1,12 +1,12 @@
 import PhotoBlock from "./PhotoBlock";
-import { Images } from "./imageMap";
+import { FirstPageImages } from "../../images/firstPageMap";
 
 const buildMasonry = () => {
   let items = [];
   for (let index = 1; index < 5; index++) {
     items.push(
       <div key={index} className="flex flex-col justify-start gap-8 lg:gap-14">
-        {Images.filter((img) => img.column === index).map(
+        {FirstPageImages.filter((img) => img.column === index).map(
           ({ id, src, height }) => (
             <PhotoBlock key={id} image={src} height={height} />
           )

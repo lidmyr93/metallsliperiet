@@ -13,7 +13,10 @@ export default function StyledLink({
   return (
     <a
       href={href}
-      className={twMerge("text-slate-200 hover:text-white", className)}
+      className={twMerge(
+        "text-slate-200 hover:text-white hover:underline",
+        className
+      )}
       target="_blank"
     >
       {children}
