@@ -9,18 +9,18 @@ export default function Hero() {
           <span className="lg:ml-28 xl:ml-64">METALLSLIPERI</span>
         </h2>
 
-        <div className="relative justify-self-end z-0">
-          <div className="absolute z-10 top-0 bottom-0 right-0 left-0 bg-gradient-to-r from-mainBg to-transparent" />
+        <div className="relative justify-self-end z-0 w-max mx-auto">
+          <div className="absolute z-10 top-0 bottom-0 right-0 left-0 bg-gradient-to-t md:bg-gradient-to-r from-mainBg to-transparent" />
           <Image
             alt="hej"
             src="/hero.jpeg"
             width={500}
             height={500}
-            className="relative z-0"
+            className="relative z-0 "
           />
         </div>
       </div>
-      <p className="text-3xl text-center mt-24 px-5 lg:px-0 lg:text-end">
+      <p className="text-xl mt-24 px-5 lg:px-0 lg:text-end lg:text-3xl">
         Joakim Arnblom grundade Stockholms metallsliperi år <b>1987 </b>
         men har själv varit i branschen i 45 år. Sedan grundandet har företaget
         arbetat med en uppsjö av intressanta projekt, under senare år till

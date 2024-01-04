@@ -15,43 +15,12 @@ export default function ContactInformation() {
           Förrådsgränd 5b, 162 50 Vällingby
         </StyledLink>
       </div>
+
+      <div className="text-2xl mt-4">
+        <h3>Öppettider</h3>
+        <p>mån-tor: 06.30 - 16.00</p>
+        <p>fre-sön: stängt</p>
+      </div>
     </section>
   );
 }
-/*  <p className="text-2xl max-w-[320px]">
-        Text om något, vet inte vad. Kanske om..... eh jag vet inte, vi hittar
-        på något kul
-      </p>
-
-      <span className="flex mt-9">
-        <a
-          href="mailto:info@metallsliperiet.se"
-          className="mr-2 font-semibold border-b-2"
-        >
-          Hör av dig
-        </a>
-        <Image
-          src="/arrow.svg"
-          alt="arrow"
-          width={18}
-          height={10}
-          className="md:hidden"
-        />
-      </span>
-
-      <div className="flex text-xs justify-center items-center mt-12 flex-wrap">
-        <StyledLink className="mr-2" href="tel:08-6415611">
-          08-641 56 11
-        </StyledLink>
-
-        <StyledLink className="mr-2" href="mailto:info@metallsliperiet.se">
-          info@metallsliperiet.se
-        </StyledLink>
-
-        <StyledLink
-          className="mr-2"
-          href="https://maps.app.goo.gl/rXeGrcJx19Cpr88JA"
-        >
-          Förrådsgränd 5b, 162 50 Vällingby
-        </StyledLink>
-      </div> */
