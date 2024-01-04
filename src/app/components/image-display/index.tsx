@@ -3,7 +3,7 @@ import { FirstPageImages } from "../../images/firstPageMap";
 
 const buildMasonry = () => {
   let items = [];
-  for (let index = 1; index < 5; index++) {
+  for (let index = 1; index < 3; index++) {
     items.push(
       <div key={index} className="flex flex-col justify-start gap-8 lg:gap-14">
         {FirstPageImages.filter((img) => img.column === index).map(
