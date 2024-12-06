@@ -19,7 +19,7 @@ export const FirstPageImages: FirstPageImage[] = [
   },
   {
     id: 4,
-    src: "/art/svenskt-tenn.png",
+    src: "/art/statue.jpg",
     height: 70,
     column: 2,
   },

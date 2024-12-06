@@ -25,9 +25,10 @@ export default function Hero() {
         men har själv varit i branschen i 45 år. Sedan grundandet har företaget
         arbetat med en uppsjö av intressanta projekt, under senare år till
         exempel med företag som <b>J-craft </b>, <b>Dustcontrol </b> och{" "}
-        <b>Svenskt Tenn </b>. Företaget erbjuder slipning, högglanspolering och
-        mattborstning av alla metalltyper, även betning av rostfritt,
-        glasblästring, riktarbeten och mindre reparationer.
+        <b>Statens fastighetsverk</b>. Företaget erbjuder slipning,
+        högglanspolering och mattborstning av alla metalltyper, även betning av
+        rostfritt, glasblästring, riktarbeten och reparationer av offentliga
+        föremål.
         <br />
         Stockholms metallsliperi är byggt på resultat av <b>högsta kvalitet </b>
         och levererar alltid därefter.
